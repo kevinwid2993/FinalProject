@@ -40,7 +40,6 @@ basket = basket.drop(['Name','Team','Weight','Height','FT%','FG3%','FG%','FGA','
 'PER', 'OWS',
 'DWS', 'WS', 'WS48', 'USG', 'BPM', 'VORP'],axis=1)
 
-basket = basket.fillna(0)
 #print(basket.dtypes)
 '''
 Height        int64
@@ -118,37 +117,45 @@ xtrain,xtest,ytrain,ytest = train_test_split(
     random_state = 101
 )
 
-from sklearn.linear_model import LinearRegression
-linmodel = LinearRegression()
-linmodel.fit(xtrain,ytrain)
+# from sklearn.linear_model import LinearRegression
+# linmodel = LinearRegression()
+# linmodel.fit(xtrain,ytrain)
 
-print(linmodel.intercept_)
 
-print(linmodel.coef_)
-'''
-[ 627686.61477924  472169.83564527   84568.44051308 2035050.59046354
-  390478.60074215  655765.3571344 ]
-'''
+from sklearn.ensemble import RandomForestRegressor
+RFFmodel = RandomForestRegressor()
+RFFmodel.fit(xtrain,ytrain)
 
-print(xtrain.columns)
-'''
-['Age', 'Points', 'Blocks', 'Steals', 'Assists', 'Rebounds']
-'''
+print(RFFmodel.score(xtrain,ytrain))
 
-basketcoeff = pd.DataFrame(linmodel.coef_,xtrain.columns,columns=['Coeff'])
+# print(linmodel.intercept_)
 
-print(basketcoeff)
-'''
-                 Coeff
-Age       6.276866e+05
-Points    4.721698e+05
-Blocks    8.456844e+04
-Steals    2.035051e+06
-Assists   3.904786e+05
-Rebounds  6.557654e+05
-'''
+# print(linmodel.coef_)
+# '''
+# [ 627686.61477924  472169.83564527   84568.44051308 2035050.59046354
+#   390478.60074215  655765.3571344 ]
+# '''
 
-#print(linmodel.predict([[25,20,2,2,5,10]]))
+# print(xtrain.columns)
+# '''
+# ['Age', 'Points', 'Blocks', 'Steals', 'Assists', 'Rebounds']
+# '''
+
+# basketcoeff = pd.DataFrame(linmodel.coef_,xtrain.columns,columns=['Coeff'])
+
+# print(basketcoeff)
+# '''
+#                  Coeff
+# Age       6.276866e+05
+# Points    4.721698e+05
+# Blocks    8.456844e+04
+# Steals    2.035051e+06
+# Assists   3.904786e+05
+# Rebounds  6.557654e+05
+# '''
+
+# print(linmodel.predict([[25,20,-2,2,5,10]]))
 
 import joblib
-joblib.dump(linmodel,'modeljoblib')
+# joblib.dump(linmodel,'modeljoblib')
+joblib.dump(RFFmodel,'modeljoblib')
