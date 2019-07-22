@@ -4,6 +4,7 @@ Prediksi Gaji NBA kamu atau pemain lain menggunakan dataset yang didapat dari
 https://www.kaggle.com/schmadam97/nba-regular-season-stats-20182019 
 
 file 1.py dapat di run untuk mendapatkan model joblib.
+
 file server.py di run untuk menjalankan UI Flask.
 
 Prediksi score menggunakan Random Forest Regressor sebesar 91%
