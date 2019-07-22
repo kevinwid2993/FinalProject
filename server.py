@@ -27,7 +27,7 @@ def result():
     elif prediksi >= 37457154:
         prediksi = '37457154 (Max salary)'
     else:
-        prediksi
+        prediksi = round(prediksi, 0)
     
     dataHasil = {
         'Name' : Name,
