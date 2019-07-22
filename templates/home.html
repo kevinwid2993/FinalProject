@@ -2,6 +2,22 @@
 <html lang="en">
 <head>
     <title>NBA Salary Prediction</title>
+    <style>
+        body {
+            background-image: url("https://www.desktopbackground.org/download/1920x1080/2010/04/11/162_nba-wallpapers-topal1-wallpaperox-com_2048x2048_h.jpg");
+            background-size: 1300px 620px
+            }
+        div.form {
+            display: block;
+            text-align: center;
+            }
+        form {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            }
+    </style>
      <!-- Required meta tags -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,10 +27,12 @@
 </head>
 <body>
     <center>
-    <h1>NBA Salary Prediction</h1>
+    <br><br>
     <form action="http://localhost:5000/result" method="POST"
-    style="margin-left:30px">
-        <br><br>Name:
+    style="background-color: whitesmoke; width:400px; padding: 20px 0px; 
+    border: 5px solid black; text-align:center; opacity: 0.9">
+    <h3 style="color: black">NBA Salary Prediction</h3>
+        <br>Name:
         <input name="Name" placeholder="Insert Name" type="text"
         style="width: 100px" required/>     
     
@@ -28,28 +46,29 @@
 
         <br><br>Blocks:
         <input name="Blocks" placeholder="Insert Blocks" type="number"
-        min="0" max="15" style="width: 100px" required/>
+        min="0" max="15" style="width: 125px" required/>
 
         <br><br>Steals:
         <input name="Steals" placeholder="Insert Steals" type="number"
-        min="0" max="15" style="width: 100px" required/>
+        min="0" max="15" style="width: 125px" required/>
 
         <br><br>Assists:
         <input name="Assists" placeholder="Insert Assists" type="number"
-        min="0" max="30" style="width: 100px" required/>
+        min="0" max="30" style="width: 125px" required/>
 
         <br><br>Rebounds:
         <input name="Rebounds" placeholder="Insert Rebounds" type="number"
-        min="0" max="60" style="width: 125px" required/>
+        min="0" max="60" style="width: 150px" required/>
 
         <br><br>
         <input type="submit" value="PREDICT SALARY">
     </form>
         <br>
+
         <a href="http://localhost:5000/displot">
         <input type="submit" value="Distribution Plot">
         </a>
-
+        
         &nbsp &nbsp &nbsp
 
         <a href="http://localhost:5000/heatmap">

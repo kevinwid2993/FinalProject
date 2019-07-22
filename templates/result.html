@@ -2,16 +2,35 @@
 <html lang="en">
 <head>
     <title>NBA Salary Prediction</title>
+    <style>
+            body {
+                background-image: url("https://images3.alphacoders.com/770/thumb-1920-770758.jpg");
+                background-size: 1300px 620px
+                }
+            div.form {
+                display: block;
+                text-align: center;
+                }
+            form {
+                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+                }
+        </style>
      <!-- Required meta tags -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
+     
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <center>
-    <h2>NBA Salary Prediction</h2>
+    <br><br><br>
+    <h3 style="background-color: whitesmoke; width:400px; padding: 20px 0px; 
+    border: 5px solid black; text-align:center; opacity:0.9">
+    <p style="color:black ; font-size:30px" >NBA Salary Prediction</p>
     <p style="font-size: 20px">Name: {{ Hasil.Name}}</p>
     <p style="font-size: 20px">Age: {{ Hasil.Age}}</p>
     <p style="font-size: 20px">Points: {{ Hasil.Points}}</p>
@@ -19,7 +38,7 @@
     <p style="font-size: 20px">Steals: {{ Hasil.Steals}}</p>
     <p style="font-size: 20px">Assists: {{ Hasil.Assists}}</p>
     <p style="font-size: 20px">Rebounds: {{ Hasil.Rebounds}}</p>
-    <p style="font-size: 20px">Your salary Prediction: $ {{ Hasil.Prediction}} / Year</p>
+    <p style="font-size: 20px">Your salary Prediction: $ {{ Hasil.Prediction}} / Year</p></h3>
     <a href="http://localhost:5000/">
         <button>BACK TO HOMEPAGE</button>
     </a>
