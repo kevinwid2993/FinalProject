@@ -3,6 +3,12 @@
 Prediksi Gaji NBA kamu atau pemain lain menggunakan dataset yang didapat dari
 https://www.kaggle.com/schmadam97/nba-regular-season-stats-20182019 
 
+file 1.py dapat di run untuk mendapatkan model joblib.
+file server.py di run untuk menjalankan UI Flask.
+
+Prediksi score menggunakan Random Forest Regressor sebesar 91%
+
+Penjelasan NBA secara singkat:
 69 tahun lalu, tepatnya 3 Agustus 1949, National Basketball Association ( NBA) resmi terbentuk. 
 NBA terbentuk dari peleburan Liga Basketball Association of America (BBA) dan Liga National Basketball League (NBL),
 setelah beberapa tahun bersaing mencuri perhatian dari pemain dan penonton setianya.
@@ -14,6 +20,7 @@ Divisi Tenggara terdiri dari Atlanta Hawks, Charlotte Hornets, Miami Heat, Orlan
 Wilayah Barat terdiri dari tiga divisi, Divisi barat laut yaitu Denver Nuggets, Minnesota Timberwolves, Oklahoma City Thunder, Portland Trail Blazers, dan Utah Jazz Divisi.
 Pasifik terdiri dari Golden State Warriors, Los Angeles Clippers, Los Angeles Lakers, Phoenix Suns, dan Sacramento Kings.
 Divisi Barat Daya terdiri dari Dallas Mavericks, Houston Rockets, Memphis Grizzlies, New Orleans Pelicans, dan San Antonio Spurs.
+
 
 Artikel ini telah tayang di Kompas.com dengan judul "Hari Ini dalam Sejarah: NBA Lahir dari Peleburan Tiga Liga ", https://bola.kompas.com/read/2018/08/03/17010298/hari-ini-dalam-sejarah-nba-lahir-dari-peleburan-tiga-liga?page=all.
 Penulis : Aswab Nanda Pratama
