@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NBA Salary Prediction</title>
+</head>
+<body>
+    <center>
+    <h1>NBA Salary Prediction</h1>
+    <form action="http://localhost:5000/result" method="POST"
+    style="margin-left:30px">
+        <br><br>Name:
+        <input name="Name" placeholder="Insert Name" type="text"
+        style="width: 100px" required/>     
+    
+        <br><br>Age:
+        <input name="Age" placeholder="Insert Age" type="number"
+        min="19" max="50" style="width: 100px" required/>
+
+        <br><br>Points:
+        <input name="Points" placeholder="Insert Points" type="number"
+        min="0" max="100" style="width: 100px" required/>
+
+        <br><br>Blocks:
+        <input name="Blocks" placeholder="Insert Blocks" type="number"
+        min="0" max="15" style="width: 100px" required/>
+
+        <br><br>Steals:
+        <input name="Steals" placeholder="Insert Steals" type="number"
+        min="0" max="15" style="width: 100px" required/>
+
+        <br><br>Assists:
+        <input name="Assists" placeholder="Insert Assists" type="number"
+        min="0" max="30" style="width: 100px" required/>
+
+        <br><br>Rebounds:
+        <input name="Rebounds" placeholder="Insert Rebounds" type="number"
+        min="0" max="60" style="width: 125px" required/>
+
+        <br><br>
+        <input type="submit" value="PREDICT SALARY">
+    </form>
+        <a href="http://localhost:5000/displot">
+        <input type="submit" value="Distribution Plot">
+        </a>
+
+        <a href="http://localhost:5000/heatmap">
+        <input type="submit" value="Heat Map">
+        </a>
+    </center>
+</body>
+</html>
