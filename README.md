@@ -1,29 +1,35 @@
-# FinalProject
+# NBA Salary Prediction
 
-Prediksi Gaji NBA kamu atau pemain lain menggunakan dataset yang didapat dari
-https://www.kaggle.com/schmadam97/nba-regular-season-stats-20182019 
+The National Basketball Association (NBA) is a men's professional basketball league in North America, composed of 30 teams (29 in the United States and 1 in Canada). It is one of the four major professional sports leagues in the United States and Canada, and is widely considered to be the premier men's professional basketball league in the world. 
 
-file 1.py dapat di run untuk mendapatkan model joblib.
+From the dataset which can be found here, https://www.kaggle.com/schmadam97/nba-regular-season-stats-20182019 . This project is going to predict the NBA player salary based on some of it's key feature:
 
-file server.py di run untuk menjalankan UI Flask.
+1. Age
+2. Points
+3. Blocks
+4. Steals
+5. Assists
+6. Rebounds
 
-Prediksi score menggunakan Random Forest Regressor sebesar 91%
+# Method 
+I am using Random Forest Regressor model to predict the salary, because of it's score that reach 91%.
+![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/result.png)
 
-Penjelasan NBA secara singkat:
+# How to run the program
+1. Please run server.py on your terminal.
+![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/server.png)
 
-69 tahun lalu, tepatnya 3 Agustus 1949, National Basketball Association ( NBA) resmi terbentuk. 
-NBA terbentuk dari peleburan Liga Basketball Association of America (BBA) dan Liga National Basketball League (NBL),
-setelah beberapa tahun bersaing mencuri perhatian dari pemain dan penonton setianya.
+2. Go to your web browser, than go to lhost:5000/ , it should be look like this.
+![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/home0.png)
 
-Wilayah timur terbagi dalam tiga divisi yaitu Divisi Atlantik yang terdiri dari lima tim. LIma tim itu adalah Boston Celtics, Brooklyn Nets, New York Knicks, Philadelphia 76ers, dan Toronto Raptors. 
-Divisi Tengah terdiri dari Chicago Bulls, Cleveland Cavaliers, Detroit Pistons, Indiana Pacers, dan Milwaukee Bucks. 
-Divisi Tenggara terdiri dari Atlanta Hawks, Charlotte Hornets, Miami Heat, Orlando Magic, dan Washington Wizards.
+3. Please fill the stats of your player.
+![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/home.png)
+after that please click predict salary button
 
-Wilayah Barat terdiri dari tiga divisi, Divisi barat laut yaitu Denver Nuggets, Minnesota Timberwolves, Oklahoma City Thunder, Portland Trail Blazers, dan Utah Jazz Divisi.
-Pasifik terdiri dari Golden State Warriors, Los Angeles Clippers, Los Angeles Lakers, Phoenix Suns, dan Sacramento Kings.
-Divisi Barat Daya terdiri dari Dallas Mavericks, Houston Rockets, Memphis Grizzlies, New Orleans Pelicans, dan San Antonio Spurs.
+4. Your NBA Salary Prediction result
+![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/score.png)
 
+there you go! you have succesfully predict your NBA salary.
 
-Artikel ini telah tayang di Kompas.com dengan judul "Hari Ini dalam Sejarah: NBA Lahir dari Peleburan Tiga Liga ", https://bola.kompas.com/read/2018/08/03/17010298/hari-ini-dalam-sejarah-nba-lahir-dari-peleburan-tiga-liga?page=all.
-Penulis : Aswab Nanda Pratama
-Editor : Inggried Dwi Wedhaswary
+#Notes
+i have put some information about the distribution plot of it's key feature, and the heatmap correlation for each features which can be found on the bottom of the homepage.

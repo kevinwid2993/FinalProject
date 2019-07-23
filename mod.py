@@ -126,7 +126,7 @@ from sklearn.ensemble import RandomForestRegressor
 RFFmodel = RandomForestRegressor()
 RFFmodel.fit(xtrain,ytrain)
 
-print(RFFmodel.score(xtrain,ytrain))
+print('Random Forest Regressor model score',round((RFFmodel.score(xtrain,ytrain)*100),2),'%')
 
 # print(linmodel.intercept_)
 
