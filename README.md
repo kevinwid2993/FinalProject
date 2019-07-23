@@ -1,5 +1,7 @@
 # NBA Salary Prediction
 
+![NBA-logo](https://user-images.githubusercontent.com/49969832/61688836-3afa9380-ad50-11e9-83ed-270f4687bd86.jpg)
+
 The National Basketball Association (NBA) is a men's professional basketball league in North America, composed of 30 teams (29 in the United States and 1 in Canada). It is one of the four major professional sports leagues in the United States and Canada, and is widely considered to be the premier men's professional basketball league in the world. 
 
 From the dataset which can be found here, https://www.kaggle.com/schmadam97/nba-regular-season-stats-20182019 . This project is going to predict the NBA player salary based on some of it's key feature:
