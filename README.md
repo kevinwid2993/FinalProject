@@ -19,10 +19,17 @@ I am using Random Forest Regressor model to predict the salary, because of it's 
 1. Please run server.py on your terminal.
 ![server](https://user-images.githubusercontent.com/49969832/61688100-4c42a080-ad4e-11e9-8589-ad9f96f2154d.png)
 
+<<<<<<< HEAD
 2. Go to your web browser, than go to lhost:5000/ , it should be look like this.
 ![home0](https://user-images.githubusercontent.com/49969832/61687995-fec63380-ad4d-11e9-9b93-12e616a9ff1f.png)
 
 3. Please fill the stats of your player, then click predict salary button.
+=======
+2. Go to your web browser, then go to localhost:5000/ , it should be look like this.
+![home0](https://user-images.githubusercontent.com/49969832/61687995-fec63380-ad4d-11e9-9b93-12e616a9ff1f.png)
+
+3. Please fill the stats of your player, then click predict salary button
+>>>>>>> 1dee0b779938d421eac53bc2066d1983042fe71d
 ![home](https://user-images.githubusercontent.com/49969832/61688112-56fd3580-ad4e-11e9-874b-b08c4bb6aa5d.png)
 
 4. Your NBA Salary Prediction result
@@ -30,5 +37,5 @@ I am using Random Forest Regressor model to predict the salary, because of it's 
 
 there you go! you have succesfully predict your NBA salary.
 
-#Notes
-i have put some information about the distribution plot of it's key feature, and the heatmap correlation for each features which can be found on the bottom of the homepage.
+# Notes
+i have put some additional information about the distribution plot of it's key feature, and the heatmap correlation for each features which can be found on the bottom of the homepage.
