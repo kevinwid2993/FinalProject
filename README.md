@@ -19,7 +19,7 @@ I am using Random Forest Regressor model to predict the salary, because of it's 
 1. Please run server.py on your terminal.
 ![server](https://user-images.githubusercontent.com/49969832/61688100-4c42a080-ad4e-11e9-8589-ad9f96f2154d.png)
 
-2. Go to your web browser, than go to lhost:5000/ , it should be look like this.
+2. Go to your web browser, then go to localhost:5000/ , it should be look like this.
 ![home0](https://user-images.githubusercontent.com/49969832/61687995-fec63380-ad4d-11e9-9b93-12e616a9ff1f.png)
 
 3. Please fill the stats of your player.
