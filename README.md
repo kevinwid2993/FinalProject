@@ -20,7 +20,7 @@ I am using Random Forest Regressor model to predict the salary, because of it's 
 ![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/server.png)
 
 2. Go to your web browser, than go to lhost:5000/ , it should be look like this.
-![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/home0.png)
+![home0](https://user-images.githubusercontent.com/49969832/61687995-fec63380-ad4d-11e9-9b93-12e616a9ff1f.png)
 
 3. Please fill the stats of your player.
 ![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/home.png)
