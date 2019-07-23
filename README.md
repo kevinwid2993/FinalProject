@@ -13,7 +13,7 @@ From the dataset which can be found here, https://www.kaggle.com/schmadam97/nba-
 
 # Method 
 I am using Random Forest Regressor model to predict the salary, because of it's score that reach 91%.
-![image](https://github.com/https://github.com/kevinwid2993/FinalProject/blob/master/screenshots/result.png)
+![score](https://user-images.githubusercontent.com/49969832/61688053-2f0dd200-ad4e-11e9-823e-1a78f17ee40e.png)
 
 # How to run the program
 1. Please run server.py on your terminal.
